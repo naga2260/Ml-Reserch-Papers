@@ -23,9 +23,6 @@ The objective is to understand the fundamentals of learning through adjustable w
 - Decision-boundary and learning-curve visualizations
 - Unit tests for linearly separable datasets
 
-## Key findings
-
-*Complete this section after running the experiments. Include measured accuracy, convergence behavior, and plots.*
 
 ## Connection to modern deep learning
 
