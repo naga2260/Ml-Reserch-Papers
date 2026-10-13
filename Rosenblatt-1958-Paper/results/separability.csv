@@ -1,0 +1,4 @@
+dataset,accuracy,epochs_run,final_epoch_errors,total_updates,converged,predictions,actual
+AND,1.0,4,0,8,True,"[0, 0, 0, 1]","[0, 0, 0, 1]"
+OR,1.0,4,0,5,True,"[0, 1, 1, 1]","[0, 1, 1, 1]"
+XOR,0.5,100,4,398,False,"[1, 1, 0, 0]","[0, 1, 1, 0]"

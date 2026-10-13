@@ -1,0 +1,4 @@
+learning_rate,accuracy,epochs_run,final_epoch_errors,total_updates,converged,weights,bias
+0.01,1.0,6,0,11,True,"[0.02, 0.01]",-0.03
+0.1,1.0,4,0,8,True,"[0.2, 0.1]",-0.20000000000000004
+1.0,1.0,6,0,11,True,"[2.0, 1.0]",-3.0

@@ -1,0 +1,113 @@
+{
+  "timestamp_utc": "2026-10-13T17:09:31.573758+00:00",
+  "python_version": "3.13.5",
+  "numpy_version": "2.5.4",
+  "scikit_learn_version": "1.9.1",
+  "dataset": "Four Boolean input combinations",
+  "settings": {
+    "learning_rates": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "epochs": 100,
+    "initial_weights": "zeros",
+    "custom_model": "perceptron.py"
+  },
+  "experiment_a": [
+    {
+      "learning_rate": 0.01,
+      "accuracy": 1.0,
+      "epochs_run": 6,
+      "final_epoch_errors": 0,
+      "total_updates": 11,
+      "converged": true,
+      "weights": "[0.02, 0.01]",
+      "bias": -0.03
+    },
+    {
+      "learning_rate": 0.1,
+      "accuracy": 1.0,
+      "epochs_run": 4,
+      "final_epoch_errors": 0,
+      "total_updates": 8,
+      "converged": true,
+      "weights": "[0.2, 0.1]",
+      "bias": -0.20000000000000004
+    },
+    {
+      "learning_rate": 1.0,
+      "accuracy": 1.0,
+      "epochs_run": 6,
+      "final_epoch_errors": 0,
+      "total_updates": 11,
+      "converged": true,
+      "weights": "[2.0, 1.0]",
+      "bias": -3.0
+    }
+  ],
+  "experiment_b": [
+    {
+      "dataset": "AND",
+      "accuracy": 1.0,
+      "epochs_run": 4,
+      "final_epoch_errors": 0,
+      "total_updates": 8,
+      "converged": true,
+      "predictions": "[0, 0, 0, 1]",
+      "actual": "[0, 0, 0, 1]"
+    },
+    {
+      "dataset": "OR",
+      "accuracy": 1.0,
+      "epochs_run": 4,
+      "final_epoch_errors": 0,
+      "total_updates": 5,
+      "converged": true,
+      "predictions": "[0, 1, 1, 1]",
+      "actual": "[0, 1, 1, 1]"
+    },
+    {
+      "dataset": "XOR",
+      "accuracy": 0.5,
+      "epochs_run": 100,
+      "final_epoch_errors": 4,
+      "total_updates": 398,
+      "converged": false,
+      "predictions": "[1, 1, 0, 0]",
+      "actual": "[0, 1, 1, 0]"
+    }
+  ],
+  "experiment_c": [
+    {
+      "dataset": "AND",
+      "custom_accuracy": 1.0,
+      "sklearn_accuracy": 1.0,
+      "custom_predictions": "[0, 0, 0, 1]",
+      "sklearn_predictions": "[0, 0, 0, 1]",
+      "predictions_match": true,
+      "custom_weights": "[0.2, 0.1]",
+      "sklearn_weights": "[0.2, 0.1]"
+    },
+    {
+      "dataset": "OR",
+      "custom_accuracy": 1.0,
+      "sklearn_accuracy": 1.0,
+      "custom_predictions": "[0, 1, 1, 1]",
+      "sklearn_predictions": "[0, 1, 1, 1]",
+      "predictions_match": true,
+      "custom_weights": "[0.1, 0.1]",
+      "sklearn_weights": "[0.2, 0.2]"
+    },
+    {
+      "dataset": "XOR",
+      "custom_accuracy": 0.5,
+      "sklearn_accuracy": 0.5,
+      "custom_predictions": "[1, 1, 0, 0]",
+      "sklearn_predictions": "[0, 0, 0, 0]",
+      "predictions_match": false,
+      "custom_weights": "[-0.1, 0.0]",
+      "sklearn_weights": "[0.0, 0.0]"
+    }
+  ]
+}
